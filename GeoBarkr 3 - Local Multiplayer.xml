@@ -801,7 +801,7 @@ geoBarkrAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         var script = document.createElement('script');
         script.src =
             'https://maps.googleapis.com/maps/api/js' +
-            '?key=AIzaSyAnVmxkHOMvHHyx9GqgrNXtzOXgr2g09mE' +
+            '?key=YOUR_GOOGLE_MAPS_API_KEY' +
             '&amp;v=weekly';
         script.onload = initMap;
         document.head.appendChild(script);
@@ -1169,7 +1169,7 @@ geoBarkrAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         window._googleMapsLoading = true;
         var script = document.createElement('script');
         script.src =
-            'https://maps.googleapis.com/maps/api/js?key=AIzaSyAnVmxkHOMvHHyx9GqgrNXtzOXgr2g09mE&amp;v=weekly';
+            'https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&amp;v=weekly';
         script.onload = callback;
         document.head.appendChild(script);
     }
@@ -1553,7 +1553,7 @@ geoBarkrAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
         window._googleMapsLoading = true;
         var script = document.createElement('script');
-        script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyAnVmxkHOMvHHyx9GqgrNXtzOXgr2g09mE&amp;v=weekly';
+        script.src = 'https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&amp;v=weekly';
 
         script.onload = callback;
         document.head.appendChild(script);
@@ -2083,7 +2083,7 @@ geoBarkrAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         window._googleMapsLoading = true;
         var script = document.createElement('script');
         script.src =
-            'https://maps.googleapis.com/maps/api/js?key=AIzaSyAnVmxkHOMvHHyx9GqgrNXtzOXgr2g09mE&amp;v=weekly';
+            'https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&amp;v=weekly';
         script.onload = callback;
         document.head.appendChild(script);
     }
